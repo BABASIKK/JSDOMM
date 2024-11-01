@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачи</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      /* Стили для секции с кнопками */
+#task-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.task-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.task-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 123, 255, 0.3);
+}
+
+.task-button:active {
+    transform: scale(1);
+    box-shadow: 0px 6px 10px rgba(0, 123, 255, 0.2);
+}
+
+    </style>
+</head>
+<body>
+
+<main>
+    <section id="task-links">
+        <h1>Задания</h1>
+        <div class="buttons-container">
+            <a href="1zadanie.html" class="task-button">Задание 1</a>
+            <a href="2zadanie.html" class="task-button">Задание 2</a>
+            <a href="3zadanie.html" class="task-button">Задание 3</a>
+            <a href="4zadanie.html" class="task-button">Задание 4</a>
+            <a href="5zadanie.html" class="task-button">Задание 5</a>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
